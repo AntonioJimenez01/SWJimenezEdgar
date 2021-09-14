@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarea 2.8 - Kepriel</title>
+    <link type="text/css" href="calculadora.css" rel="stylesheet">
+    <script src="code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-              FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">   </script>
+  </head>
+<body>
+	<div id="Contenedor">
+		<header class="Titulo">
+				<h1>Calculadora</h1>
+		</header>
+		<section id="calculadora">
+			<header class="top">
+				<div id="resultado"></div>
+			</header>
+			<ul class="Teclas">
+        <li></li>
+        <li></li>
+        <li id="reset" onclick="init()">C</li>
+        <li id="borradoParcial" onclick="init()"></li>
+				<li id="siete" onclick="init()">7</li>
+				<li id="ocho" onclick="init()">8</li>
+				<li id="nueve" onclick="init()">9</li>
+				<li id="division"onclick="init()">&frasl;</li>
+				<li id="cuatro" onclick="init()">4</li>
+				<li id="cinco" onclick="init()">5</li>
+				<li id="seis" onclick="init()">6</li>
+				<li id="multiplicacion" onclick="init()">*</li>
+				<li id="uno" onclick="init()">1</li>
+				<li id="dos" onclick="init()">2</li>
+				<li id="tres" onclick="init()">3</li>
+				<li id="resta" onclick="init()">-</li>
+				<li id="cero" onclick="init()">0</li>
+				<li id="coma" onclick="init()">.</li>
+				<li id="suma" onclick="init()">+</li>
+				<li id="verificar" onclick="init()">=</li>
+			</ul>
+		</section>
+	</div>
+	<script type="text/javascript" src="calculadora.js"></script>
+  </body>
+</html>
