@@ -1,0 +1,14 @@
+body{
+    width:1000px;
+    margin:0px auto;
+  }
+
+.btn {
+    display: flex;
+    border: 1px solid rgb(126, 126, 126);
+    justify-content: center;
+}
+h1{
+    text-align: center;  
+}
+
