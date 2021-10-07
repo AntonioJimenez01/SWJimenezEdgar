@@ -14,7 +14,7 @@
         <meta name="keywords" content="login,formulariode acceso html">
         <link rel="stylesheet" href="css/login.css">
         <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
-    
+        
         <link rel="stylesheet" href="css/registro.css">
         
         <style type="text/css">
@@ -28,20 +28,23 @@
     </head>
 
   <body>
-    <form action="users.html" method="GET">
-    <p class="texto">Registro</p>
-    <div id="Registro">
-        <div id="contenedorcentrado">
-    <form method="post" action="https://getform.org/f/70415a77-d632-4883-bf07-2e15d3f557da">
-    
-        <span class="fontawesome-user"></span>
-        <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
 
-    <span class="fontawesome-lock"></span>
-    <input id="password" type="password" placeholder="Contraseña" name="password" required>
-               
-    <input type="submit" value="Registrar" title="Registra tu cuenta">
+    <div id="contenedor">
+    <form action="users.html" method="GET">
+    <div id="contenedorcentrado">
+    
+    <div id="registro">
+        <label for="usuario">Usuario</label>
+        <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+        
+        <label for="password">Contraseña</label>
+        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                         
+      <form method="get" action="registro.html">
+        <button type="submit">Registrar
+       </form>
     </form>
+    </div>
         </div>
     </div>
             </body>  
